@@ -13,10 +13,12 @@ public class HelloController {
         return "kemuyuan,testing";
     }
 
+    @RequestMapping(value = "/test1")
     public String test2(){
         return "boring";
     }
-    
+
+    @RequestMapping(value = "/test2")
     public String test3(){
         return "excting";
     }
