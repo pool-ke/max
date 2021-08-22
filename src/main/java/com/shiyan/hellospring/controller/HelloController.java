@@ -16,4 +16,8 @@ public class HelloController {
     public String test2(){
         return "boring";
     }
+    
+    public String test3(){
+        return "excting";
+    }
 }
