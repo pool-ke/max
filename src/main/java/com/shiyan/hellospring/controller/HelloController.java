@@ -9,17 +9,17 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
 
     @RequestMapping(value = "/test")
-    public String test(){
+    public String test() {
         return "kemuyuan,testing";
     }
 
     @RequestMapping(value = "/test1")
-    public String test2(){
+    public String test2() {
         return "boring";
     }
 
     @RequestMapping(value = "/test2")
-    public String test3(){
+    public String test3() {
         return "excting";
     }
 }
